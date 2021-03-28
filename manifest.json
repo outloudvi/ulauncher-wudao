@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Wudao dictionary",
+  "description": "Extension for wudao-dict",
+  "developer_name": "Outvi V",
+  "icon": "images/youdao.png",
+  "options": {
+    "query_debounce": 0.5
+  },
+  "preferences": [
+    {
+      "id": "wdd-keyword",
+      "type": "keyword",
+      "name": "Keyword of wd",
+      "description": "Search a word...",
+      "default_value": "wdd"
+    },
+    {
+      "id": "wdd-path",
+      "type": "text",
+      "name": "Path of wdd",
+      "description": "Usually in wudao-dict/wdd.",
+      "default_value": ""
+    }
+  ]
+}
